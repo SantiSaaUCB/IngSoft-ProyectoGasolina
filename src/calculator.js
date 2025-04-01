@@ -4,4 +4,3 @@ export function calculateTotalTime(queue, timePerVehicle) {
 export function calculateWaitingTimeForVehicle(queue, vehicleIndex, timePerVehicle) {
      return vehicleIndex * timePerVehicle;
 }
-   
